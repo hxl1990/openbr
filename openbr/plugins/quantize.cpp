@@ -368,6 +368,7 @@ public:
         ProductQuantizationLUTs.append(Mat());
     }
 
+//CLEANUP::Should these lines be removed?
 private:
 //    static double denseKernelDensityBandwidth(const Mat &lut, const Mat &occurences)
 //    {

@@ -218,6 +218,7 @@ class DrawGridTransform : public UntrainableTransform
 
 BR_REGISTER(Transform, DrawGridTransform)
 
+//CLEANUP::Should this be in a seperate file (perhaps with the math functions from cvt.cpp)
 /*!
  * \ingroup transforms
  * \brief Computes the mean of a set of templates.

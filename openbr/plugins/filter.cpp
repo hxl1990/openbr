@@ -112,6 +112,8 @@ class DoGTransform : public UntrainableTransform
 
 BR_REGISTER(Transform, DoGTransform)
 
+
+//CLEANUP::not sure if this is a filter or not
 /*!
  * \ingroup transforms
  * \brief Meyers, E.; Wolf, L.
@@ -217,6 +219,8 @@ class ContrastEqTransform : public UntrainableTransform
 
 BR_REGISTER(Transform, ContrastEqTransform)
 
+
+//CLEANUP::Another canidate for a math operations source file
 /*!
  * \ingroup transforms
  * \brief Raise each element to the specified power.

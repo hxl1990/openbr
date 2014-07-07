@@ -20,7 +20,7 @@
 #include "openbr/core/opencvutils.h"
 
 using namespace cv;
-
+//CLEANUP::why is this called register.cpp?
 namespace br
 {
 

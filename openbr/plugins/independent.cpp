@@ -8,7 +8,7 @@ using namespace cv;
 
 namespace br
 {
-
+//CLEANUP::This whole file might need a more descriptive name then independent.cpp
 static TemplateList Downsample(const TemplateList &templates, int classes, int instances, float fraction, const QString &inputVariable, const QStringList &gallery, const QStringList &subjects)
 {
     // Return early when no downsampling is required

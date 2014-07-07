@@ -2,7 +2,7 @@
 #include "openbr_internal.h"
 
 using namespace cv;
-
+//CLEANUP::possibly add wordwise transform from integral.cpp
 namespace br
 {
 

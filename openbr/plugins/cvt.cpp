@@ -201,6 +201,7 @@ class RGTransform : public UntrainableTransform
 
 BR_REGISTER(Transform, RGTransform)
 
+//CLEANUP::Should both of these math transforms be in a different file???
 /*!
  * \ingroup transforms
  * \brief dst = a*src+b

@@ -20,7 +20,7 @@
 #include "openbr/core/opencvutils.h"
 
 using namespace cv;
-
+//CLEANUP::why is this file called synthetic.cpp
 namespace br
 {
 

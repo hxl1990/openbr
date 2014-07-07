@@ -20,7 +20,7 @@ using namespace cv;
 
 namespace br
 {
-
+//CLEANUP::This file could possible be combined with some out of place math transforms to form a more general 'operators.cpp' or something like that.
 /*!
  * \ingroup transforms
  * \brief Subtract two matrices.
@@ -119,6 +119,7 @@ private:
 
 BR_REGISTER(Transform, StatTransform)
 
+//CLEANUP::independent.cpp has a Downsample function call perhaps these should be combined.
 /*!
  * \ingroup transforms
  * \brief Downsample the rows and columns of a matrix.

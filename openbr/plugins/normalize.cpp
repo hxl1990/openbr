@@ -30,6 +30,7 @@ using namespace cv;
 namespace br
 {
 
+//CLEANUP::Canidate to be moved to hist.cpp
 /*!
  * \ingroup transforms
  * \brief Histogram equalization

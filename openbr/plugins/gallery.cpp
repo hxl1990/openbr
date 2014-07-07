@@ -725,6 +725,7 @@ class memGallery : public Gallery
 
 BR_REGISTER(Gallery, memGallery)
 
+//CLEANUP::This seems out of place in this file
 FileList FileList::fromGallery(const File &file, bool cache)
 {
     File targetMeta = file;

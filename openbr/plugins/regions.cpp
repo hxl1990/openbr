@@ -73,6 +73,7 @@ class ByRowTransform : public UntrainableTransform
 
 BR_REGISTER(Transform, ByRowTransform)
 
+//CLEANUP::could this be in a more general file (not sure if it fits in regions.cpp)
 /*!
  * \ingroup transforms
  * \brief Concatenates all input matrices into a single matrix.
@@ -109,7 +110,7 @@ class CatTransform : public UntrainableMetaTransform
 };
 
 BR_REGISTER(Transform, CatTransform)
-
+//CLEANUP::see comment for cat
 /*!
  * \ingroup transforms
  * \brief Concatenates all input matrices by row into a single matrix.
@@ -127,7 +128,7 @@ class CatRowsTransform : public UntrainableMetaTransform
 };
 
 BR_REGISTER(Transform, CatRowsTransform)
-
+//CLEANUP::see comment for cat
 /*!
  * \ingroup transforms
  * \brief Concatenates all input matrices by column into a single matrix.
@@ -260,6 +261,7 @@ class ExpandRectTransform : public UntrainableTransform
 
 BR_REGISTER(Transform, ExpandRectTransform)
 
+//CLEANUP::Could this go in crop.cpp
 /*!
  * \ingroup transforms
  * \brief Crops the width and height of a template's rects by input width and height factors.

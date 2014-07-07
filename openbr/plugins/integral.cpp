@@ -271,6 +271,7 @@ class RecursiveIntegralSamplerTransform : public Transform
 
 BR_REGISTER(Transform, RecursiveIntegralSamplerTransform)
 
+//CLEANUP::Should integral.cpp file have derivative based calculation? File maybe could be renamed.
 /*!
  * \ingroup transforms
  * \brief Computes magnitude and/or angle of image.
@@ -309,6 +310,7 @@ private:
 
 BR_REGISTER(Transform, GradientTransform)
 
+//CLEANUP::Not sure how this fits in with all of the other transforms here
 /*!
  * \ingroup transforms
  * \brief Projects each row based on a computed word.

@@ -8,6 +8,7 @@
 
 using namespace cv;
 
+//CLEANUP::Can quantize and quantize2 be combined?
 namespace br
 {
 

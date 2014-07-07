@@ -150,6 +150,7 @@ private:
 
 BR_REGISTER(Transform, MorphTransform)
 
+//CLEANUP::Is this a mask operation?
 /*!
  * \ingroup transforms
  * \brief Set the template's label to the area of the largest convex hull.
