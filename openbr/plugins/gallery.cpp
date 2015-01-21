@@ -1678,8 +1678,9 @@ void FileGallery::init()
 {
     f.setFileName(file);
     QtUtils::touchDir(f);
-    if (!f.open(QFile::ReadWrite))
-        qFatal("Failed to open %s for read/write.", qPrintable(file));
+    //    if (!f.open(QFile::ReadWrite))
+    if (!f.open(QFile::ReadOnly))
+        qFatal("Failed to open %s for reading.", qPrintable(file));
     fileSize = f.size();
 
     Gallery::init();
